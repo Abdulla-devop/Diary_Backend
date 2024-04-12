@@ -7,8 +7,3 @@ export function getUserByEmail(req){
     })
 }
 
-export function getUserDetails(req){
-    return User.findOne({
-        name:req.body.name,
-    })
-}
